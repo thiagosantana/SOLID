@@ -1,0 +1,17 @@
+package com.santana.solid.bad;
+
+public class Mustang implements Car {
+
+	@Override
+	public void startEngine() {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public void acellerate() {
+		// TODO Auto-generated method stub
+
+	}
+
+}
