@@ -1,0 +1,5 @@
+package com.santana.solid.bad;
+
+public class DeliveryDriver {
+	public void deliveryProduct(Product product)
+}

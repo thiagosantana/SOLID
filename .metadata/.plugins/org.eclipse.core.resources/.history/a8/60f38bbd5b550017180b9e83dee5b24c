@@ -1,0 +1,14 @@
+package com.santana.solid.good;
+
+public class DeliveryCompany {
+	private DeliveryService deliveryService;
+	public void sendProduct(Product product) {
+		public DeliveryCompany(DeliveryService service) {
+			this.deliveryService = service;
+		}
+		deliveryDriver.deliverProduct(product);
+	}
+	public void sendProduct(Product product) {
+        this.deliveryService.deliverProduct(product);
+    }
+}
