@@ -1,0 +1,5 @@
+package com.santana.solid.bad;
+
+public class Square extends Rectangle{
+
+}

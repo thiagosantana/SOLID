@@ -1,0 +1,17 @@
+package com.santana.solid.bad;
+
+public class LiskovExample {
+	public void calculateArea(Rectangle rect) {
+		rect.setHeight(2);
+		rect.setWidth(4);
+		assert rect.getArea() == 8 : printError("area", rect);
+		assert rect.getHeight() == 2 : printError("length", rect);
+		assert rect.getWidth() == 4 : printError("length", rect);
+	}
+	private String printError(String indentifier, Rectangle rect) {
+		return "Unexpected value of " + indentifier + "  for instance of " + r.getClass().getName();
+	}
+	public static void main(String[] args) {
+		
+	}
+}
