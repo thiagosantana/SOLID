@@ -1,7 +1,0 @@
-package com.santana.solid.good;
-
-public class DeliveryDriver {
-	public void deliverProduct(Product product){
-		
-	}
-}

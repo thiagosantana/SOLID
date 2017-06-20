@@ -1,8 +1,0 @@
-package com.santana.solid.good;
-
-public class DeliveryCompany {
-	public void sendProduct(Product product) {
-		DeliveryDriver deliveryDriver = new DeliveryDriver();
-		deliveryDriver.deliverProduct(product);
-	}
-}
